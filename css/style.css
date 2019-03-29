@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    background-color: rgba(101, 103, 129, 0.5);
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.header_inside {
+    min-height: 150px;
+    display: flex;
+}
+
+.logo, .info, .phone {
+    min-height: 150px;
+    /* border: 1px dashed yellow; */
+    width: 30%;
+    text-align: center;
+}
+/* 
+.phone {
+    display: 
+    align-items: flex-end;
+} */
+
+.logo>img {
+    height: 150px;
+}
+
+.play {
+    font-family: 'Playfair Display', serif;
+}
+
+.info_b {
+    font-size: 16pt;
+    color: black;
+    margin-top: 10px;
+}
+
+.info_s {
+    font-size: 13pt;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 18pt;
+    color: black;
+    margin: 5px 0;
+}
+
+.phone_s {
+    font-size: 13pt;
+    color: rgb(248, 8, 8);
+    margin: 20px;
+}
+
+.phone_b {
+    font-size: 20pt;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+/* main */
+.main_inside {
+    min-height: 450px;
+    /* display: flex; */
+}
+
+.text {
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-size: 20pt;
+    margin: 20px 0;
+}
+
+.text_b {
+    color: blue;
+    font-size: 12pt;
+    margin: 5px 0;
+}
+
+.lock {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 15px;
+}
+
+.lock1 {
+    background-image: url(../img/door.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lock2 {
+    background-image: url(../img/auto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lock3 {
+    background-image: url(../img/safe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+}
+
+.pluses {
+    width: 100%;
+    height: 150px;
+    border: 1px dashed yellow;
+    display: flex;
+}
+
+.list {
+    padding-left: 40px;
+    margin: 20px;
+}
+
+.list>li {
+    margin: 10px 0;
+}
+
+.text_w {
+    color: black;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background: rgba(255, 255, 255, 0.5);
+    vertical-align: center;
+    border-radius: 17px;
+}
