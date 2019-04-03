@@ -7,6 +7,9 @@
     <title>Lock doors</title>
 
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 </head>
 <body>
     <div class="container">
@@ -33,15 +36,27 @@
                     <span class="text_b play">Круглосуточно примем заявку</span>
                 </div>
                 <div class="choice">
-                    <div class="lock lock1">
-                        <p class="play text_w">Дверные замки</p>
+                    <div class="choice_info">
+                        <ul class="list play">
+                            <li>У Вас закрылась дверь и нужна помощь?</li>
+                            <li>Случайно захлопнули дверь автомобиля, а ключи остались в багажнике?</li>
+                            <li>Дверной замок сломан и нужна качественная замена?</li>
+                            <li>Ваш сейф не хочет открываться?</li>
+                            <li>Мы поможем Вам!!!!</li>
+                        </ul>
                     </div>
-                    <div class="lock lock2">
-                        <p class="play text_w">Автомобильные замки</p>
+                    <div class="choice_image">
+                        <div class="lock lock1">
+                            <p class="play text_w">Дверные замки</p>
+                        </div>
+                        <div class="lock lock2">
+                            <p class="play text_w">Автомобильные замки</p>
+                        </div>
+                        <div class="lock lock3">
+                            <p class="play text_w">Сейфы</p>
+                        </div>
                     </div>
-                    <div class="lock lock3">
-                        <p class="play text_w">Сейфы</p>
-                    </div>
+                    
                 </div>
                 <div class="pluses">
                     <div class="list_plus">
@@ -53,22 +68,72 @@
                         </ul>
                     </div>
                     <div class="form">
-                        <form action=" " method="post"  autocomplete="on">
+                        <p class="play text_w">Вызовите мастера прямо сейчас!</p>
+                        <form action="" method="post"  autocomplete="on">
                             <p>
-                                <label for="username" class="iconic user">Name<span class="required">*</span></label>
+                                <label for="username" class="play">Имя<span class="required">*</span></label>
                                 <input type="text" name="username" id="username"  required="required" placeholder="Имя"/> 
                             </p>
                             <p>
-                                <label for="userphone" class="iconic phone-alt">Phone<span class="required">*</span></label>
-                                <input type="phone" name="userphone" id="userphone" placeholder="Number" required="required"/>
+                                <label for="userphone" class="play">Номер телефона<span class="required">*</span></label>
+                                <input type="phone" name="userphone" id="userphone" placeholder="Номер" required="required"/>
                             </p>                     
                             <input type="submit" value="Отправить сообщение!" />
-                        </form>   
+                        </form>
+                        <p class="play phone_s sub">Мы перезвоним Вам в течение 5 минут!</p>
+                    </div>
+                </div>
+                <div class="price">
+                    <p class="info_b play center">Отличные цены</p>
+                    <div id="accordion">
+                        <!-- <h3>Отличные цены</h3>
+                        <div></div> -->
+                        <h3>Вскрытие замков от 200 рублей</h3>
+                        <div>
+                            <ul class="acc_list">
+                                <li>Замок почтового ящика от 200 руб.</li>
+                                <li>Отечественный дверной замок от 700 руб.</li>
+                                <li>Импортный дверной замок от 1500 руб.</li>
+                                <li>Взломостойкий дверной замок от 2000 руб.</li>
+                                <!-- <li>Гаражный замок от 1500 руб.</li> -->
+                            </ul>
+                        </div>
+                        <h3>Вскрытие автомобилей от 900 руб</h3>
+                        <div>
+                            <ul class="acc_list">
+                                <li>Отечественный автомобиль от 900 руб.</li>
+                                <li>Импортный автомобиль от 2000 руб.</li>
+                                <li>Автомобиль премиум класса от 2500 руб.</li>
+                                <li>Багажник, капот, бензобак от 1500 руб.</li>
+                            </ul>
+                        </div>
+                        <h3>Вскрытие сейфа от 1500 руб.</h3>
+                        <div>
+                            <ul class="acc_list">
+                                <li>Отечественный сейф от 1500 руб.</li>
+                                <li>Импортный сейф от 2000 руб.</li>
+                                <li>Электромеханический сейф от 2000 руб.</li>
+                                <li>Сейф с двойной защитой от 2500 руб.</li>
+                            </ul>
+                        </div>
+                        <h3>Замена дверного замка от 250 руб.</h3>
+                        <div>
+                            <ul class="acc_list">
+                                <li>Замена цилиндра замка от 250 руб.</li>
+                                <li>Замена замка без разбора двери от 900 руб.</li>
+                                <li>Замена замка с разбором двери от 1800 руб.</li>
+                                <li>Перекодировка замка от 1500 руб.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+
+        </footer>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
