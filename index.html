@@ -4,31 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lock doors</title>
+    <title>Lock doors - открываем все виды замков в Пушкино, Мытищи, Королев</title>
 
     <link href="css/style.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+
 
 </head>
 <body>
     <div class="container">
         <header>
             <div class="header_inside wrapper">
-                <div class="logo">
-                    <img src="img/header.jpg" alt="logo">
+                <div class="head">
+                    <div class="logo">
+                        <img src="img/header.jpg" alt="открытие замков в Пушкино">
+                    </div>
+                    <div class="info">
+                        <h1 class="play">Открываем любые замки!</h1>
+                        <p class="info_b play">Работаем круглосуточно</p>
+                        <p class="info_s play">г.<span>Пушкино</span>, г.Мытищи, г. Королев и ближайшие населенные объекты</p>
+                    </div>
+                    <div class="phone">
+                        <p class="phone_s play">Звоните сейчас!</p>
+                        <a href="tel:+79000000000" class="phone_b play">+7 (900) 000 00 00</a>
+                    </div>
                 </div>
-                <div class="info">
-                    <h1 class="play">Поможем Вам!</h1>
-                    <p class="info_b play">Работаем круглосуточно</p>
-                    <p class="info_s play">Во всех районах Москвы и Московской области</p>
-                </div>
-                <div class="phone">
-                    <p class="phone_s play">Звоните сейчас!</p>
-                    <a href="tel:+79000000000" class="phone_b play">+7 (900) 000 00 00</a>
-                </div>
+                
             </div>
+            <nav>
+                <li class="nav_li play"><a href="#">Главная</a></li>
+                <li class="nav_li play"><a href="pages/door.html">Двери</a></li>
+                <li class="nav_li play"><a href="pages/auto.html">Автомобили</a></li>
+                <li class="nav_li play"><a href="pages/safe.html">Сейфы</a></li>
+                <li class="nav_li play"><a href="pages/comments.html">Отзывы</a></li>
+            </nav>
         </header>
+
         <main>
             <div class="main_inside wrapper">
                 <div class="text">
@@ -38,50 +51,50 @@
                 <div class="choice">
                     <div class="choice_info">
                         <ul class="list play">
-                            <li>У Вас закрылась дверь и нужна помощь?</li>
-                            <li>Случайно захлопнули дверь автомобиля, а ключи остались в багажнике?</li>
-                            <li>Дверной замок сломан и нужна качественная замена?</li>
-                            <li>Ваш сейф не хочет открываться?</li>
-                            <li>Мы поможем Вам!!!!</li>
+                            <li class="unset">У Вас закрылась дверь и нужна помощь?</li>
+                            <li class="unset">Случайно захлопнули дверь автомобиля, а ключи остались в багажнике?</li>
+                            <li class="unset">Дверной замок сломан и нужна качественная замена?</li>
+                            <li class="unset">Ваш сейф не хочет открываться?</li>
+                            <li class="unset">Мы поможем Вам!!!!</li>
                         </ul>
                     </div>
                     <div class="choice_image">
-                        <div class="lock lock1">
-                            <p class="play text_w">Дверные замки</p>
-                        </div>
-                        <div class="lock lock2">
-                            <p class="play text_w">Автомобильные замки</p>
-                        </div>
-                        <div class="lock lock3">
-                            <p class="play text_w">Сейфы</p>
-                        </div>
+                        <a href="pages/door.html">
+                            <div class="lock lock1">
+                                <p class="play text_w">Дверные замки</p>
+                            </div>
+                        </a>
+                        <a href="pages/auto.html">
+                            <div class="lock lock2">
+                                <p class="play text_w">Автомобильные замки</p>
+                            </div>
+                        </a>
+                        <a href="pages/safe.html">
+                            <div class="lock lock3">
+                                <p class="play text_w">Сейфы</p>
+                            </div>
+                        </a>
+                        
                     </div>
                     
                 </div>
-                <div class="pluses">
-                    <div class="list_plus">
-                        <ul class="list play">
-                            <li>Мастер приезжает в любой район Москвы!</li>
-                            <li>Вскрываем 99% замков</li>
-                            <li>Сразу на месте заменяем и ремонтируем замки!</li>
-                            <li>Экономим ваши деньги и время!</li>
-                        </ul>
-                    </div>
+                <!-- <div class="pluses">
+                   
                     <div class="form">
                         <p class="play text_w">Вызовите мастера прямо сейчас!</p>
-                        <form action="" method="post"  autocomplete="on">
+                        <form action="mailto:la_insolence@mail.ru" method="post"  autocomplete="on">
                             <p>
                                 <label for="username" class="play">Имя<span class="required">*</span></label>
                                 <input type="text" name="username" id="username"  required="required" placeholder="Имя"/> 
                             </p>
                             <p>
                                 <label for="userphone" class="play">Номер телефона<span class="required">*</span></label>
-                                <input type="phone" name="userphone" id="userphone" placeholder="Номер" required="required"/>
+                                <input type="text" name="userphone" id="userphone" placeholder="Номер" required="required"/>
                             </p>                     
                             <input type="submit" value="Отправить сообщение!" />
                         </form>
                         <p class="play phone_s sub">Мы перезвоним Вам в течение 5 минут!</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="price">
                     <p class="info_b play center">Отличные цены</p>
@@ -130,10 +143,31 @@
             </div>
         </main>
         <footer>
+            <div class="footer_inside wrapper">
+                <div class="footer_info">
+                    <!-- <ul class="list_mini play">
+                        <li>Круглосуточно поможем Вам в городах <span>Пушкино</span>, <span>Мытищи</span> и <span>Королев</span>!</li>
+                        <li>Вскрываем 99% замков</li>
+                        <li>Сразу на месте заменяем и ремонтируем замки!</li>
+                        <li>Экономим ваши деньги и время!</li>
+                    </ul> -->
+                </div>
+                
+                <div class="footer_copy">
+                    <p class="info_b play">&#169; Все права защищены. 2019</p>
+                </div>
+                <div class="footer_contacts">
+                    <!-- <p class="info_b play">Телефон для связи - <a href="tel:+79000000000" class="phone_s play">+7 (900) 000 00 00</a></p>
+                    <p class="info_b play">Вы можете оставить заявку на сайте и мы перезвоним в течение 5 минут!</p> -->
+                </div>
 
+            </div>
+            
         </footer>
     </div>
 
     <script src="js/main.js"></script>
+
+    <div id="toTop">^ Наверх</div>
 </body>
 </html>
