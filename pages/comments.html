@@ -40,11 +40,13 @@
                 
             </div>
             <nav>
-                <li class="nav_li play"><a href="../index.html">Главная</a></li>
-                <li class="nav_li play"><a href="door.html">Двери</a></li>
-                <li class="nav_li play"><a href="auto.html">Автомобили</a></li>
-                <li class="nav_li play"><a href="safe.html">Сейфы</a></li>
-                <li class="nav_li play"><a href="#">Отзывы</a></li>
+                <ul>
+                    <li class="nav_li play"><a href="../index.html">Главная</a></li>
+                    <li class="nav_li play"><a href="door.html">Двери</a></li>
+                    <li class="nav_li play"><a href="auto.html">Автомобили</a></li>
+                    <li class="nav_li play"><a href="safe.html">Сейфы</a></li>
+                    <li class="nav_li play"><a href="#">Отзывы</a></li>
+                </ul>
             </nav>
         </header>
 
@@ -52,7 +54,21 @@
 
         <main>
             <div class="main_inside wrapper">
-                
+                <p class="info_about play comment">На этой странице вы можете оставить отзыв о нашей работе!</p>
+                <div id="mc-review"></div>
+                <script type="text/javascript">
+                cackle_widget = window.cackle_widget || [];
+                cackle_widget.push({widget: 'Review', id: 65712});
+                (function() {
+                    var mc = document.createElement('script');
+                    mc.type = 'text/javascript';
+                    mc.async = true;
+                    mc.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cackle.me/widget.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+                })();
+                </script>
+                <a id="mc-link" href="http://cackle.me">Отзывы для сайта <b style="color:#4FA3DA">Cackl</b><b style="color:#F65077">e</b></a>
+
             </div>
 
         </main>
@@ -71,11 +87,24 @@
                 </div>
                 
                 <div class="footer_copy">
-                    <p class="info_b play">&#169; Все права защищены. 2019</p>
+                    <p class="info_b play">&#169; 2019 Все права защищены.</p>
                 </div>
                 <div class="footer_contacts">
-                    <!-- <p class="info_b play">Телефон для связи - <a href="tel:+79000000000" class="phone_s play">+7 (900) 000 00 00</a></p>
-                    <p class="info_b play">Вы можете оставить заявку на сайте и мы перезвоним в течение 5 минут!</p> -->
+                    <!-- Yandex.Metrika counter -->
+                    <script type="text/javascript" >
+                    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+                    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+                    ym(53409667, "init", {
+                    clickmap:true,
+                     trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                        });
+                    </script>
+                    <noscript><div><img src="https://mc.yandex.ru/watch/53409667" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+                    <!-- /Yandex.Metrika counter -->
                 </div>
 
             </div>
