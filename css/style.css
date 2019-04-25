@@ -106,7 +106,7 @@ main {
     height: 100%;
 }
 .main_inside {
-    min-height: 450px;
+    min-height: 470px;
 }
 
 .text {
@@ -464,8 +464,8 @@ thead {
     }
     .wrapper {
         width: 100%;
-        padding: 0;
-        margin: 0;
+        padding: none;
+        margin: none;
     }
     .info {
         display: flex;
@@ -563,10 +563,10 @@ thead {
     }
 }
 
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) and (min-width: 320px) and (max-width: 543px) {
     .acc_list>li {
         margin: 3px 0;
         padding: 2px;
         font-size: 8px;
     }
-}
+} */
